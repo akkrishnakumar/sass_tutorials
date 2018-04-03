@@ -1,0 +1,26 @@
+$yellowGreenColor: yellowgreen;
+$secondContainer: "second-container";
+
+.container {
+  h1 {
+    color: blue;
+  }
+
+  h3 {
+    color: #DE5E85;
+  }
+
+  span {
+    color: red;
+
+    &:hover {
+      background-color: $yellowGreenColor;
+    }
+  }
+
+}
+
+.#{$secondContainer} {
+  color: greenyellow;
+  background-color: red;
+}
